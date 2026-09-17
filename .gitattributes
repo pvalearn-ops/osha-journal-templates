@@ -1,0 +1,4 @@
+*.docx binary
+*.doc binary
+*.md text eol=lf
+*.json text eol=lf
