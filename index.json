@@ -29,20 +29,35 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "LIFTLOAD",
         "ORG",
+        "RECK",
         "SITEADDR",
         "STAMPNO",
         "TYPE"
       ],
-      "size": 32879,
-      "sha256": "b36bb44d0b2e43fa4898c41926a8cda66acebd878d23b972d2fc743415f72522",
+      "size": 32888,
+      "sha256": "9a8dc8ae2293d473a6debe6f84542888d0acf66c2e372da6dc566d13ad21f4df",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})固定式起重機竣工檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -116,19 +131,34 @@
       "placeholders": [
         "BSNAME",
         "CKADDR",
+        "FIRSTCK",
         "LIFTLOAD",
         "ORG",
+        "RECK",
         "STAMPNO",
         "TYPE"
       ],
-      "size": 24869,
-      "sha256": "6d04fd0828949955b526fc33aab92677eed9bb4374698c7d44c6d14dfa0552c4",
+      "size": 24884,
+      "sha256": "1fb107352d53f32656e9edb5ead856483c267655fb589b8bea859723df2fc36f",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})移動式起重機使用檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -186,20 +216,35 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "LIFTLOAD",
         "ORG",
+        "RECK",
         "SITEADDR",
         "STAMPNO",
         "TYPE"
       ],
-      "size": 26043,
-      "sha256": "ad70c2469dc9fd3c3f1ee2d0c59ee0bf16f6d77726b8db7fa777022d7a961002",
+      "size": 26051,
+      "sha256": "c78f5dce07f131efbce95cf8e2eb21f6d1cf55aeb2fb3b5960a4ad72d48042cd",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})人字臂起重桿竣工檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -273,19 +318,34 @@
       "placeholders": [
         "BSNAME",
         "CKADDR",
+        "FIRSTCK",
         "LOADCAP",
         "ORG",
+        "RECK",
         "STAMPNO",
         "TYPE"
       ],
-      "size": 31359,
-      "sha256": "a29f6df7be8d7458076f3198de4635eb809f54c663261b804168b591980eb4fe",
+      "size": 31368,
+      "sha256": "07b4a8fffea3f9a89f549260a271e25683503194f248e5bb0308dcd704c7534f",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})吊籠使用檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢{{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢{{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -309,7 +369,7 @@
           "id": "LOADCAP",
           "field": "積載荷重",
           "round": null,
-          "ctx": "{{積載荷重}} 公斤"
+          "ctx": "{{積載荷重}}公斤"
         },
         {
           "id": "CKADDR",
@@ -343,6 +403,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LIFTLOAD",
@@ -350,16 +411,30 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 28263,
-      "sha256": "f055c8d71eb3617e870970acec066247d1969c775750a7cf61475faee74d1c31",
+      "size": 28279,
+      "sha256": "275668e190d8af8462175ccf2d4a17ce4c7638de0f4c7d6794257d59e48055a6",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})固定式起重機定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -457,23 +532,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LIFTLOAD",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "STAMPNO",
         "TYPE"
       ],
-      "size": 31574,
-      "sha256": "6514fadd5f1e182d18f7afc58e23245e42d4f12c67e02d050f8803558c8889aa",
+      "size": 31589,
+      "sha256": "e090ff8e9e5f8b645ff85c4c176e620b5b635a510fee03da725e84bbe2affa5d",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -568,6 +658,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LIFTLOAD",
@@ -575,16 +666,30 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 18519,
-      "sha256": "532c92ca96a2d272e8f828c43b37479e728e81ae35f22bfccf81382ebb4a33f8",
+      "size": 18531,
+      "sha256": "03dd2f220b741387eccee4fb6a2c4c00a59812ee2635379b9583a44684318f99",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 移動式起重機定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -608,7 +713,7 @@
           "id": "LIFTLOAD",
           "field": "吊升荷重",
           "round": null,
-          "ctx": "{{吊升荷重}} 公噸"
+          "ctx": "{{吊升荷重}}公噸"
         },
         {
           "id": "CKADDR",
@@ -689,23 +794,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LIFTLOAD",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "STAMPNO",
         "TYPE"
       ],
-      "size": 22912,
-      "sha256": "d425b1a7e0f9868679d10c4b9d897efba1403c3b501633f3671ba1a115201868",
+      "size": 22924,
+      "sha256": "06a260bd75477c90dde65393cf242d182392f4f8178ea6f111dc3bd8d74ed510",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} )移動式起重機"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -806,6 +926,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
@@ -813,16 +934,30 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 28774,
-      "sha256": "8b9fc819e3d5fdfa56b6f94258b7a3b177da39d0ab6bbea33a55cecd6116fb59",
+      "size": 28785,
+      "sha256": "ad7d5e317234b0dd62086bb8057f293bc4fe406b0176a306bbbb2b279e7241fb",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} )吊籠定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢{{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢{{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -927,23 +1062,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "STAMPNO",
         "TYPE"
       ],
-      "size": 28849,
-      "sha256": "1ac2e87c4829f9ac9f3ce9129e3b11d9509ffd92b5ef6e4edba9244509787eb5",
+      "size": 28865,
+      "sha256": "a485917ae3fdb620996510e3f3a62eace0ebef1f8daa13b10911c75c48776ea4",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 吊籠"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢{{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢{{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1043,6 +1193,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
@@ -1050,16 +1201,30 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 31495,
-      "sha256": "7180547b9237f4a2d84b619b791446f8ad3d5cc7a57f837753d22e9e9603da20",
+      "size": 31507,
+      "sha256": "2aa2df1823e5d3d9c865b3af6b1b61d46fd05be3dcea51184c123cee91a7b2a1",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 營建用升降機(CNS13627)定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1153,22 +1318,37 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "STAMPNO"
       ],
-      "size": 40308,
-      "sha256": "4b2164fab5b816bcb3a6b9667a9e833ef79bfd10f25a05d79fef9c0c6d0f44eb",
+      "size": 40321,
+      "sha256": "48d6605e493b91be42be289d2f2bcbe46e75d937c2e24806766be4b57baba02a",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 既有營建用升降機（齒條式）"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1260,23 +1440,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "SITELOC",
         "STAMPNO"
       ],
-      "size": 34495,
-      "sha256": "558790cb2708dae989e0212e126459b8d893676535376658c6b804e99fdee1b2",
+      "size": 34511,
+      "sha256": "d8db81ed1e1934ea7971b4c18e6c95d85cb148406f01097eb91b19a9718e720c",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})營建用升降機（EN 1495）"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1374,24 +1569,39 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "SITELOC",
         "STAMPNO",
         "TYPEUSE"
       ],
-      "size": 41808,
-      "sha256": "7ab7df6a14e7194324c93c9b2851a79df9826140d9fff6aacffc2a1c8def8d12",
+      "size": 41826,
+      "sha256": "f5bea22c88a82a3d6f728b9bbdb6f4ac0da133b74ff1a3c2c99da658c373bee8",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})營建用升降機（EN12159）"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1491,6 +1701,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
@@ -1498,16 +1709,30 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 38155,
-      "sha256": "f5bfa71f5c2437fcfc2f750a2741f0f093439e983be7da5be61d78178cacbed5",
+      "size": 38164,
+      "sha256": "b3e6e4622563fae9e4111b944c7ad65446295211c4086343f8e0b32604ca3bbe",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 營建用升降機（EN12159）定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1601,6 +1826,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
@@ -1608,16 +1834,30 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 28433,
-      "sha256": "582d87fe6751915f21d1f0a9baedfd31d1a5f425692f58be985ef987d93e18de",
+      "size": 28439,
+      "sha256": "dbeb25f90818d267afd197ce1196b8b45d532c4472cd2a2df289c83b158cdd74",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 營建用升降機（EN 1495）定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1716,23 +1956,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LIFTLOAD",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "STAMPNO",
         "TYPE"
       ],
-      "size": 22674,
-      "sha256": "9fd5f14e801367367ca16a8fa250c61a0439f6cdfb726e32373ffd1d1ab43c57",
+      "size": 22689,
+      "sha256": "d0b8f0d030a8a33a4da22f817bbfcb3ec5e3f910d07bac6deaabffa3ff5089b5",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})移動式起重機(EN 13000)"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1833,6 +2088,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LIFTLOAD",
@@ -1840,16 +2096,30 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 33917,
-      "sha256": "49e5db24f0c8a474c76610074d938328e4f6b68de0b45b8018b79c68062f3fd6",
+      "size": 33930,
+      "sha256": "4d9219962b6152b8e535bcbe1632b824ee70c9af4b2e3f7bdb9ee34055eccb1e",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})移動式起重機(EN 13000)定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -1953,24 +2223,41 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "SITELOC",
         "STAMPNO",
         "TYPEUSE"
       ],
-      "size": 42302,
-      "sha256": "9c8921a5df3c9f18dbc17aedaf5473df23e7766ab394480cce29f3f4bc26fcca",
+      "size": 42318,
+      "sha256": "87941d566c984f0e8e3127a07d29484a7c6f064369ab71db434027d6b4feef03",
+      "alias": [
+        "W3-02-04"
+      ],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 營建用升降機"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -2070,6 +2357,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LIFTLOAD",
@@ -2077,16 +2365,32 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 26427,
-      "sha256": "d471dbabb656ab6a9ddcb06ca6b85a8c07555047bcc4a90f3ca1c8dbe980a989",
+      "size": 26439,
+      "sha256": "ea0fbd3659fdb77f7cd990c00446cdceffce4669c36bb2cc32fa97a63cf799dd",
+      "alias": [
+        "QP-12-01"
+      ],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 人字臂起重桿定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -2180,6 +2484,7 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
@@ -2187,16 +2492,32 @@
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPE"
       ],
-      "size": 28735,
-      "sha256": "712a26d80b06c835c7c691804f238edc930f7d9dbf888c41e635790983cf443f",
+      "size": 28747,
+      "sha256": "f46cc16cc5886afe82f928d20544f09485cc2c607d2f035b9d187913d86cd759",
+      "alias": [
+        "QP-12-02"
+      ],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 營建用提升機(CNS 13628)定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -2294,24 +2615,41 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "SITELOC",
         "STAMPNO",
         "TYPEUSE"
       ],
-      "size": 29068,
-      "sha256": "6a587ebb1437543e7312320165b3fc32632f0d661f0aff64975b6f796bcab7f8",
+      "size": 29083,
+      "sha256": "fbaf482807ee40b0ce29b58b73aa5c1f846596b7c799c72833228a9ca594f656",
+      "alias": [
+        "QP-12-03"
+      ],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 營建用提升機(CNS 13628) □竣工 檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -2415,23 +2753,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "LOADCAP",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "SITELOC",
         "STAMPNO"
       ],
-      "size": 53241,
-      "sha256": "bee50633b37b8cf4a8da647759d32f65b8bc2f8a85d44c52b01e49216b20e93b",
+      "size": 53259,
+      "sha256": "c843d05bc5d34c2dd55cc093973e8309551ee7217e228cb4f975c3e1719df017",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 營建用提升機（EN12158-1）"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -2531,6 +2884,7 @@
         "CKY",
         "CKY2",
         "CKY3",
+        "FIRSTCK",
         "INH",
         "INH2",
         "INH3",
@@ -2538,17 +2892,31 @@
         "INM2",
         "INM3",
         "ORG",
+        "RECK",
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 33781,
-      "sha256": "00c397eefe6c4b1bb1bc7c79a3dc0dcd53523579c9f99a2716a580b2638993e7",
+      "size": 33795,
+      "sha256": "04e4973a341b2cb45ef7185ca95cf3f091aa58c05169c85b500da878c71b2072",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "（{{單位全銜}}）鍋爐熔接檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -2686,23 +3054,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "STRUCKNO",
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 25052,
-      "sha256": "7d937a962c06c0a0f6e8e45fd4a916a314d6e8f76ce7bf0ba561ceadd1928e80",
+      "size": 25059,
+      "sha256": "1a603235fd78ee8322ac87ddcac932c3dbe2705141ad9e05f4a57f783a6a963d",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "（{{單位全銜}}）鍋爐"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -2799,22 +3182,37 @@
         "CKM",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "RECKNO",
         "STRUCKNO"
       ],
-      "size": 25118,
-      "sha256": "cea31443f811daa3606b37515ca6288b3942d06759b390786c745cfef36d6f9c",
+      "size": 25131,
+      "sha256": "13cc530ff59353a403e54bfdaa0c17c7c49709832e4df40d189b7237e3534559",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "（{{單位全銜}}）鍋爐"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -2910,20 +3308,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 19620,
-      "sha256": "651abb38912d20da3d2c21af73277dd97d1d568cc1f58346fcc636bda2fe8c85",
+      "size": 19636,
+      "sha256": "2de23d65295c275138640ee97eebb043cdfb569e6164831b6288e9fdfd7782ab",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 鍋爐定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3019,6 +3432,7 @@
         "CKY",
         "CKY2",
         "CKY3",
+        "FIRSTCK",
         "INH",
         "INH2",
         "INH3",
@@ -3026,17 +3440,31 @@
         "INM2",
         "INM3",
         "ORG",
+        "RECK",
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 24904,
-      "sha256": "06c5101f00f190557fa9974c4fe014af145c8d381e84f6847af31d1f0a744181",
+      "size": 24916,
+      "sha256": "fc332e0da2c22feea83097702fcc4308b000b766e61c5f7f2d7d861546aa1248",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} )"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3176,23 +3604,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "STRUCKNO",
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 25339,
-      "sha256": "259db75499ab4e41c960d98e21f1b1dafc93867b96eefc9555a187ebe2f4824e",
+      "size": 25350,
+      "sha256": "d62173b0dd999ad16a1832da0ab0914a1b1490f17a2145c30d99b392ddddb92c",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} )"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3289,22 +3732,37 @@
         "CKM",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "RECKNO",
         "STRUCKNO"
       ],
-      "size": 25103,
-      "sha256": "523bdfae4317eb8cc620f392e848818ee98702b51562f5724483f0a0163a4271",
+      "size": 25115,
+      "sha256": "0ee4b391f427f5f79a1180b163c0ad6b695c53ff13805eca1cc9b4e1e240e19e",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 第一種壓力容器"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3400,20 +3858,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 28600,
-      "sha256": "4b0321039a511a87c23ef794874beaaa553afaf6bbaa6595e5a9bf3a0a3d64c8",
+      "size": 28615,
+      "sha256": "cecb05b1d49c665ce5a345465bd9957566ad18b26852043f63d505421a7cd197",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})第一種壓力容器定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3502,21 +3975,36 @@
         "CKM",
         "CKY",
         "EXCKNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPENAME"
       ],
-      "size": 26373,
-      "sha256": "39e657483a9c000f4268ce206adf89ac25a59de5a408a1e1b029f348e091e56f",
+      "size": 26382,
+      "sha256": "98cc41cb05190c849c02e7d4005b7e3d70c83712571b5a41e9dcda7c530309b3",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3607,22 +4095,37 @@
         "CKM",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "RECKNO",
         "STRUCKNO"
       ],
-      "size": 29148,
-      "sha256": "f1c84fc5c658b9cfa5d3399c521bcce5e99a6885dc30b011c15db49a28cba9c4",
+      "size": 29165,
+      "sha256": "5593cc03680e45e6d5f100c1146a7ceef613cd63e462b02f9cbf40a997b327f6",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} )高壓氣體特定設備"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3718,20 +4221,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 28440,
-      "sha256": "08890d832a502b1e908ea894c360989b19bfe1d066cfcb95e937ccdfe243d096",
+      "size": 28455,
+      "sha256": "a25fae9c61e16709c48d29fa4652e40be4a3a411fcfb8c6b9bb801b1cc8e8b2d",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})高壓氣體特定設備定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3825,6 +4343,7 @@
         "CKY",
         "CKY2",
         "CKY3",
+        "FIRSTCK",
         "INH",
         "INH2",
         "INH3",
@@ -3832,17 +4351,31 @@
         "INM2",
         "INM3",
         "ORG",
+        "RECK",
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 26494,
-      "sha256": "dc8ed9b14732ba17bc152cb026960c2da1ce16f23db372ea43324fb6059641d8",
+      "size": 26507,
+      "sha256": "6ea2a007ba4f5203b6bcb87d962a304303bb904cab4f1084e34bdf4e5a7c2d75",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 高壓氣體容器熔接檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -3982,23 +4515,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "STRUCKNO",
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 28383,
-      "sha256": "bd4848b10156daa75dcdb86841b62d63c1228992c5633d46aacbf8760d549ef4",
+      "size": 28398,
+      "sha256": "ec59fca6a89329085e1934e129c6ea6d7c5404a9354bf23e82785ef6564f19fb",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 高壓氣體容器"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -4094,20 +4642,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 29878,
-      "sha256": "edd31f7337bf9c4cbdecbc05cc82b9833fb77da1b34aacba04fdeea882519e0e",
+      "size": 29893,
+      "sha256": "eaad69db2253eb8acf0c64026b6dee682b0a5abaa2a92286e9c49c42cadeefed",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})高壓氣體容器定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -4200,6 +4763,7 @@
         "CKY",
         "CKY2",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INH2",
         "INM",
@@ -4208,16 +4772,30 @@
         "OUTH",
         "OUTH2",
         "OUTM",
-        "OUTM2"
+        "OUTM2",
+        "RECK"
       ],
-      "size": 27605,
-      "sha256": "5ffe911c738bd9fe6854b93c94ac85a8dfe01ecb2ecbded1b0e62592391d7ea1",
+      "size": 27619,
+      "sha256": "3327a421f2f936355e1470d0170918bce93e9f5aeca4b8a0328b906aa1dd9b4d",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})第一種壓力容器內部檢查延長期限或替代檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -4348,21 +4926,36 @@
         "CKM",
         "CKY",
         "EXCKNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPENAME"
       ],
-      "size": 27419,
-      "sha256": "47252d641d46eb44b47317b7efea3bb02a1b94933e1a0fb1406f4610ee09e76a",
+      "size": 27430,
+      "sha256": "911a3e85d1f8ba5b6a9afc62ffa3e98e154406c0e1c32a55b30812813462d6d0",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -4455,6 +5048,7 @@
         "CKY",
         "CKY2",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INH2",
         "INM",
@@ -4463,16 +5057,30 @@
         "OUTH",
         "OUTH2",
         "OUTM",
-        "OUTM2"
+        "OUTM2",
+        "RECK"
       ],
-      "size": 28295,
-      "sha256": "567943ecdaa038301cc969524f16cfc63e7620abe1e082dd9294fe4369ddb174",
+      "size": 28310,
+      "sha256": "5086abf3664e5ee460894b1ad8c83d6c674264ddf59a897623bd64cb5689af69",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 高壓氣體特定設備檢查結果及會談紀錄(適用第133條)"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -4603,21 +5211,36 @@
         "CKM",
         "CKY",
         "EXCKNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "TYPENAME"
       ],
-      "size": 26134,
-      "sha256": "2a226d45d3234149c17198c342a80e26e92f3869fd3207896e88d91a94d054a1",
+      "size": 26145,
+      "sha256": "d29ce9bae3b5e2c3a43a5bb779c7989d9b83106697d36ec040835515de04b934",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})既有高壓氣體容器檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -4707,20 +5330,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 23041,
-      "sha256": "4379c04aacdc79f9a915e47c94dd5f7ad6dd15d742b22bba25f8bb46b9085c6b",
+      "size": 23057,
+      "sha256": "7739ad3a6ddd77b8c034939679d4efb792b99cb373f11474d862c1638b54a48e",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})高壓氣體容器內部檢查延長期限或替代檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "一、檢查結果 {{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "一、檢查結果 {{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -4810,20 +5448,35 @@
         "CKY",
         "EQNO",
         "EXCKNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 25151,
-      "sha256": "9e5db6fc1007a3e212a6aef06cfd8fd3c20ebe926d04affd720eeca3bad9f896",
+      "size": 25165,
+      "sha256": "3ce17bb69422b4ca967bab5926d1e952bc8afedd2be26b7b7bdbe1c3bad10164",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 既有鍋爐檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -4911,23 +5564,38 @@
         "CKD",
         "CKM",
         "CKY",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
         "OUTM",
+        "RECK",
         "RECKNO",
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 25505,
-      "sha256": "43e0980c0318f26d8aac7a86ba9b63ff7584b6e73289aa9ef5055cc590a22988",
+      "size": 25519,
+      "sha256": "58c1032301335013fa41c2dc7c183ce91f416d895a1e288bda36fed362da3224",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})高壓氣體容器(國外進口)重新檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "一、檢查結果 {{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "一、檢查結果 {{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -5023,20 +5691,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 31062,
-      "sha256": "57c737432a1b0e6170823814e3b7e859822d222c3bb1b9be26a4e61bf3a69be3",
+      "size": 31076,
+      "sha256": "09f30a29b2cc8936d1c6f74f080aa4e25bda82e02ab5d2c8a811119a6394f16f",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})高壓氣體特定設備檢查結果及會談紀錄(適用第132條備註2、3)"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -5126,20 +5809,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 32771,
-      "sha256": "02eeb325f9ea797b182e0384c3d269c6e3e3c8a2de290a545bd69bfe78ef77ca",
+      "size": 32785,
+      "sha256": "407cdbfa30e33d07a4de4ff3ba226c95f55a7c10f908c12db9285db3da027358",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 高壓氣體特定設備（覆土式儲槽) 定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -5229,20 +5927,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 35315,
-      "sha256": "07a3f2021048ec530c70a58b5467dce42097d156b8aa0abe48bddda2bf20ad02",
+      "size": 35329,
+      "sha256": "288faa432cb55074aa6d996e7757f03c04a9868b89dc4b000dd5a866d2500450",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 高壓氣體特定設備（覆土式儲槽) 定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -5332,20 +6045,35 @@
         "CKNO",
         "CKY",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INM",
         "ORG",
         "OUTH",
-        "OUTM"
+        "OUTM",
+        "RECK"
       ],
-      "size": 28194,
-      "sha256": "5f09efe8fb2ce7257ebd8f5c8d2bbceb67be374fe03857b088ef89b995700484",
+      "size": 28208,
+      "sha256": "3ecc7582963624f8bce61330589b4288e3601fa10aa597d5fca7d63e0d24eb9d",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})高壓氣體特定設備液化天然氣儲槽第二期(LNG儲槽)定期檢查結果及會談紀錄"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -5438,6 +6166,7 @@
         "CKY",
         "CKY2",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INH2",
         "INM",
@@ -5446,16 +6175,30 @@
         "OUTH",
         "OUTH2",
         "OUTM",
-        "OUTM2"
+        "OUTM2",
+        "RECK"
       ],
-      "size": 33515,
-      "sha256": "383280b8375df90fa0d55c9a4e13775eb064595c72ff24931228f76156351fb0",
+      "size": 33529,
+      "sha256": "11952861c6d1d9159ddb3381b2bb3e276783a9b790c1762c16bb5342fd916686",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})高壓氣體特定設備定期檢查結果及會談紀錄(適用加熱爐)"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -5592,6 +6335,7 @@
         "CKY",
         "CKY2",
         "EQNO",
+        "FIRSTCK",
         "INH",
         "INH2",
         "INM",
@@ -5600,16 +6344,30 @@
         "OUTH",
         "OUTH2",
         "OUTM",
-        "OUTM2"
+        "OUTM2",
+        "RECK"
       ],
-      "size": 34762,
-      "sha256": "3e923e3ecad5acfc5183d92d719ff16d873d080fdb8cc35439df1791b461a2ca",
+      "size": 34774,
+      "sha256": "920dc487ab94331d9cc5a29b2ca2068e8f4bafa559e6d49a626d36cc32881aa3",
+      "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})"
+        },
+        {
+          "id": "FIRSTCK",
+          "field": "初檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+        },
+        {
+          "id": "RECK",
+          "field": "複檢框",
+          "round": null,
+          "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
         },
         {
           "id": "BSNAME",
@@ -5717,6 +6475,7 @@
     }
   ],
   "anchorSyntax": "{{ID}}",
+  "aliasNote": "舊表單編號。RMEMS 對舊案件可能還在用，比對時 code 與 alias 都要看。",
   "anchorNote": "同一份表單裡同欄位出現多次時，第 2 次起在 ID 後面加次別數字（CKY / CKY2 / CKY3）",
   "fields": [
     {
@@ -5868,6 +6627,18 @@
       "zh": "離場分",
       "source": "使用者輸入",
       "note": ""
+    },
+    {
+      "id": "FIRSTCK",
+      "zh": "初檢勾選框",
+      "source": "applyCaseDetail.chkType",
+      "note": "chkType=1 時填 ■，否則 □"
+    },
+    {
+      "id": "RECK",
+      "zh": "複檢勾選框",
+      "source": "applyCaseDetail.chkType",
+      "note": "chkType=2 時填 ■，否則 □"
     }
   ]
 }
