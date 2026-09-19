@@ -687,15 +687,15 @@
         "RECK",
         "TYPE"
       ],
-      "size": 18454,
-      "sha256": "ea88535ad9f90210c05677de32078aa4c01776fd026b03e44b72c3ee934cfdc2",
+      "size": 26878,
+      "sha256": "98a52f384a5cd469ca1a839aa570cd026ee4b7d6ca661a613a1ca04bcf2bfc5a",
       "alias": [],
       "slots": [
         {
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
-          "ctx": "({{單位全銜}}) 移動式起重機定期檢查結果及會談紀錄"
+          "ctx": "{{單位全銜}}"
         },
         {
           "id": "FIRSTCK",
