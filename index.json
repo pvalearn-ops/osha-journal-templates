@@ -523,7 +523,7 @@
       "code": "W3-61-02D",
       "file": "W3-61-02D.docx",
       "rev": "102.04",
-      "name": "固定式起重機 □既有 □變更 □重新 ( ) 檢查結果及會談紀錄",
+      "name": "固定式起重機 {{既有框}}既有 {{變更框}}變更 {{重新框}}重新 ( ) 檢查結果及會談紀錄",
       "source": "W3-61-02D-固定式起重機既有、重新、變更檢查結果及會談紀錄.docx",
       "ecCodes": [
         "F"
@@ -544,6 +544,9 @@
       "ecType": "B",
       "placeholders": [
         "BSNAME",
+        "CKBOXL",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -558,10 +561,28 @@
         "STAMPNO",
         "TYPE"
       ],
-      "size": 31587,
-      "sha256": "ef06162be94d0cae2cf97686832a7aa272e9017abdad4349534b5c6bd7ff865b",
+      "size": 31601,
+      "sha256": "1d1e344376b39f3f5380e7ad2897a99e0d5ebfbc365ba1dfe93a7956b08269ea",
       "alias": [],
       "slots": [
+        {
+          "id": "CKBOXL",
+          "field": "既有框",
+          "round": null,
+          "ctx": "{{既有框}}既有"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{變更框}}變更 {{重新框}}重新"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{變更框}}變更 {{重新框}}重新"
+        },
         {
           "id": "ORG",
           "field": "單位全銜",
@@ -790,7 +811,7 @@
       "code": "W3-61-05D",
       "file": "W3-61-05D.docx",
       "rev": "104.08",
-      "name": "移動式起重機 □既有 □重新 □變更 檢查結果及會談紀錄",
+      "name": "移動式起重機 {{既有框}}既有 {{重新框}}重新 {{變更框}}變更 檢查結果及會談紀錄",
       "source": "W3-61-05D-移動式起重機既有、變更、重新檢查結果及會談紀錄.docx",
       "ecCodes": [
         "M"
@@ -812,6 +833,9 @@
       "placeholders": [
         "BSNAME",
         "CKADDR",
+        "CKBOXL",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -826,8 +850,8 @@
         "STAMPNO",
         "TYPE"
       ],
-      "size": 22924,
-      "sha256": "06a260bd75477c90dde65393cf242d182392f4f8178ea6f111dc3bd8d74ed510",
+      "size": 22940,
+      "sha256": "3fe3a51a47213076437c6c05522ece235f7412c2b64b0e8d2a13ac1830eb2301",
       "alias": [],
       "slots": [
         {
@@ -835,6 +859,24 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} )移動式起重機"
+        },
+        {
+          "id": "CKBOXL",
+          "field": "既有框",
+          "round": null,
+          "ctx": "{{既有框}}既有"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{重新框}}重新 {{變更框}}變更"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{重新框}}重新 {{變更框}}變更"
         },
         {
           "id": "FIRSTCK",
@@ -1064,7 +1106,7 @@
       "code": "W3-61-11C",
       "file": "W3-61-11C.docx",
       "rev": "102.04",
-      "name": "吊籠 □既有 □重新 □變更 檢查結果及會談紀錄",
+      "name": "吊籠 {{既有框}}既有 {{重新框}}重新 {{變更框}}變更 檢查結果及會談紀錄",
       "source": "W3-61-11C-吊籠既有、重新、變更檢查結果及會談紀錄.docx",
       "ecCodes": [
         "G"
@@ -1086,6 +1128,9 @@
       "placeholders": [
         "BSNAME",
         "CKADDR",
+        "CKBOXL",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -1100,8 +1145,8 @@
         "STAMPNO",
         "TYPE"
       ],
-      "size": 28863,
-      "sha256": "a1c561176eb460247394655457b7abf658439e4009b6fe13eac2e22fbcf3c353",
+      "size": 28878,
+      "sha256": "d355dfe4d12cd723b5c428949d9d5da3388875a81055900b6333b57d17d07ebf",
       "alias": [],
       "slots": [
         {
@@ -1109,6 +1154,24 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 吊籠"
+        },
+        {
+          "id": "CKBOXL",
+          "field": "既有框",
+          "round": null,
+          "ctx": "{{既有框}}既有"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{重新框}}重新 {{變更框}}變更"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{重新框}}重新 {{變更框}}變更"
         },
         {
           "id": "FIRSTCK",
@@ -1234,8 +1297,8 @@
         "RECK",
         "TYPE"
       ],
-      "size": 31507,
-      "sha256": "2aa2df1823e5d3d9c865b3af6b1b61d46fd05be3dcea51184c123cee91a7b2a1",
+      "size": 31502,
+      "sha256": "6340c005dbe1fd770c6d2c79c05d83995579bd885e57cda890250a205047ddbc",
       "alias": [],
       "slots": [
         {
@@ -1452,7 +1515,7 @@
       "code": "W3-61-16A",
       "file": "W3-61-16A.docx",
       "rev": "107.05",
-      "name": "營建用升降機（EN 1495） □竣工 □變更□重新 檢查結果及會談紀錄",
+      "name": "營建用升降機（EN 1495） {{竣工框}}竣工 {{變更框}}變更{{重新框}}重新 檢查結果及會談紀錄",
       "source": "W3-61-16A-營建用升降機(EN 1495)竣工、變更、重新檢查會談紀錄.docx",
       "ecCodes": [
         "E"
@@ -1473,6 +1536,9 @@
       "ecType": "B",
       "placeholders": [
         "BSNAME",
+        "CKBOXC",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -1487,8 +1553,8 @@
         "SITELOC",
         "STAMPNO"
       ],
-      "size": 34511,
-      "sha256": "d8db81ed1e1934ea7971b4c18e6c95d85cb148406f01097eb91b19a9718e720c",
+      "size": 34527,
+      "sha256": "72fecdbb5b449afc762c5704d4ff6a853865bd83a2d29e20fa588bf8ca92720c",
       "alias": [],
       "slots": [
         {
@@ -1496,6 +1562,24 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})營建用升降機（EN 1495）"
+        },
+        {
+          "id": "CKBOXC",
+          "field": "竣工框",
+          "round": null,
+          "ctx": "{{竣工框}}竣工"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -1584,7 +1668,7 @@
       "code": "W3-61-17B",
       "file": "W3-61-17B.docx",
       "rev": "113.02",
-      "name": "營建用升降機（EN12159） □竣工 □變更□重新 檢查結果及會談紀錄",
+      "name": "營建用升降機（EN12159） {{竣工框}}竣工 {{變更框}}變更{{重新框}}重新 檢查結果及會談紀錄",
       "source": "W3-61-17B營建用升降機竣工變更重新檢查(歐盟標準(EN 12159))會談紀錄.docx",
       "ecCodes": [
         "E"
@@ -1605,6 +1689,9 @@
       "ecType": "B",
       "placeholders": [
         "BSNAME",
+        "CKBOXC",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -1620,8 +1707,8 @@
         "STAMPNO",
         "TYPEUSE"
       ],
-      "size": 41826,
-      "sha256": "f5bea22c88a82a3d6f728b9bbdb6f4ac0da133b74ff1a3c2c99da658c373bee8",
+      "size": 41840,
+      "sha256": "6304cc94c09017ae7be642d9e2155c8fb38b7d86c8be6eb5ca7dbcbba801672d",
       "alias": [],
       "slots": [
         {
@@ -1629,6 +1716,24 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})營建用升降機（EN12159）"
+        },
+        {
+          "id": "CKBOXC",
+          "field": "竣工框",
+          "round": null,
+          "ctx": "{{竣工框}}竣工"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -1754,8 +1859,8 @@
         "RECK",
         "TYPE"
       ],
-      "size": 38164,
-      "sha256": "b3e6e4622563fae9e4111b944c7ad65446295211c4086343f8e0b32604ca3bbe",
+      "size": 38159,
+      "sha256": "dc4a484c471f12d506da40100002245eda3c29df5183b3fd1a3de819a5ba00ef",
       "alias": [],
       "slots": [
         {
@@ -1882,8 +1987,8 @@
         "RECK",
         "TYPE"
       ],
-      "size": 28439,
-      "sha256": "dbeb25f90818d267afd197ce1196b8b45d532c4472cd2a2df289c83b158cdd74",
+      "size": 28431,
+      "sha256": "05cf718c658da5d3f2ad17278cce91e8cc0cf928ef5e179c4e46e1e9ceb370f3",
       "alias": [],
       "slots": [
         {
@@ -1979,7 +2084,7 @@
       "code": "W3-61-20A",
       "file": "W3-61-20A.docx",
       "rev": "113.02",
-      "name": "移動式起重機(EN 13000) □既有 □重新 □變更 檢查結果及會談紀錄",
+      "name": "移動式起重機(EN 13000) {{既有框}}既有 {{重新框}}重新 {{變更框}}變更 檢查結果及會談紀錄",
       "source": "W3-61-20A移動式起重機(EN13000)既有  變更  重新檢查結果及會談紀錄.docx",
       "ecCodes": [
         "M"
@@ -2001,6 +2106,9 @@
       "placeholders": [
         "BSNAME",
         "CKADDR",
+        "CKBOXL",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -2015,8 +2123,8 @@
         "STAMPNO",
         "TYPE"
       ],
-      "size": 22689,
-      "sha256": "d0b8f0d030a8a33a4da22f817bbfcb3ec5e3f910d07bac6deaabffa3ff5089b5",
+      "size": 22704,
+      "sha256": "1724204c48d1b24121e15cc052fe9d12978c029f937de95efbd8433376aef6a1",
       "alias": [],
       "slots": [
         {
@@ -2024,6 +2132,24 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}})移動式起重機(EN 13000)"
+        },
+        {
+          "id": "CKBOXL",
+          "field": "既有框",
+          "round": null,
+          "ctx": "{{既有框}}既有"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{重新框}}重新 {{變更框}}變更"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{重新框}}重新 {{變更框}}變更"
         },
         {
           "id": "FIRSTCK",
@@ -2249,7 +2375,7 @@
       "code": "W3-61-22H",
       "file": "W3-61-22H.docx",
       "rev": "113.08",
-      "name": "營建用升降機 □竣工 □變更□重新 檢查結果及會談紀錄",
+      "name": "營建用升降機 {{竣工框}}竣工 {{變更框}}變更{{重新框}}重新 檢查結果及會談紀錄",
       "source": "W3-61-22H營建用升降機竣工變更重新檢查會談紀錄 (原W3-02-04G).docx",
       "ecCodes": [
         "E"
@@ -2270,6 +2396,9 @@
       "ecType": "B",
       "placeholders": [
         "BSNAME",
+        "CKBOXC",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -2285,8 +2414,8 @@
         "STAMPNO",
         "TYPEUSE"
       ],
-      "size": 42318,
-      "sha256": "87941d566c984f0e8e3127a07d29484a7c6f064369ab71db434027d6b4feef03",
+      "size": 42333,
+      "sha256": "eaecb7f7f66b966a5a298ae93569472fe7b5fe8000b5ce900add220169b184fc",
       "alias": [
         "W3-02-04"
       ],
@@ -2296,6 +2425,24 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 營建用升降機"
+        },
+        {
+          "id": "CKBOXC",
+          "field": "竣工框",
+          "round": null,
+          "ctx": "{{竣工框}}竣工"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -2422,7 +2569,7 @@
         "TYPE"
       ],
       "size": 26439,
-      "sha256": "8798b102cc27ed714f0a561560ef710739708e790d6e866d932696d4ea8ada96",
+      "sha256": "bab70b865eafb5e8ed8ba8680ced424fcde6e110db6fb56026eac415d8065e1f",
       "alias": [
         "QP-12-01"
       ],
@@ -2646,7 +2793,7 @@
       "code": "W3-61-25A",
       "file": "W3-61-25A.docx",
       "rev": "113.08",
-      "name": "營建用提升機(CNS 13628) □竣工 檢查結果及會談紀錄",
+      "name": "營建用提升機(CNS 13628) {{竣工框}}竣工 檢查結果及會談紀錄",
       "source": "W3-61-25A-營建用提升機(CNS 13628)竣工變更重新檢查結果及會談紀錄 (原QP-12-03A).docx",
       "ecCodes": [
         "L"
@@ -2667,6 +2814,9 @@
       "ecType": "B",
       "placeholders": [
         "BSNAME",
+        "CKBOXC",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -2682,8 +2832,8 @@
         "STAMPNO",
         "TYPEUSE"
       ],
-      "size": 29083,
-      "sha256": "fbaf482807ee40b0ce29b58b73aa5c1f846596b7c799c72833228a9ca594f656",
+      "size": 29094,
+      "sha256": "aa1613b5e648013720aedd36be5f9ef0fdacb0b9fe35d2ca4da381c4f4638c16",
       "alias": [
         "QP-12-03"
       ],
@@ -2692,7 +2842,25 @@
           "id": "ORG",
           "field": "單位全銜",
           "round": null,
-          "ctx": "( {{單位全銜}} ) 營建用提升機(CNS 13628) □竣工 檢查結果及會談紀錄"
+          "ctx": "( {{單位全銜}} ) 營建用提升機(CNS 13628) {{竣工框}}竣工 檢查結果及會談紀錄"
+        },
+        {
+          "id": "CKBOXC",
+          "field": "竣工框",
+          "round": null,
+          "ctx": "( {{單位全銜}} ) 營建用提升機(CNS 13628) {{竣工框}}竣工 檢查結果及會談紀錄"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -2785,7 +2953,7 @@
       "code": "W3-61-26A",
       "file": "W3-61-26A.docx",
       "rev": "114.09",
-      "name": "營建用提升機（EN12158-1） □竣工 □變更□重新 檢查結果及會談紀錄",
+      "name": "營建用提升機（EN12158-1） {{竣工框}}竣工 {{變更框}}變更{{重新框}}重新 檢查結果及會談紀錄",
       "source": "W3-61-26A營建用提升機(EN12158-1)竣工、變更、重新檢查會談紀錄草案114.09.docx",
       "ecCodes": [
         "L"
@@ -2806,6 +2974,9 @@
       "ecType": "B",
       "placeholders": [
         "BSNAME",
+        "CKBOXC",
+        "CKBOXM",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -2820,8 +2991,8 @@
         "SITELOC",
         "STAMPNO"
       ],
-      "size": 53259,
-      "sha256": "c843d05bc5d34c2dd55cc093973e8309551ee7217e228cb4f975c3e1719df017",
+      "size": 53275,
+      "sha256": "a144262ce88b2241fbfde51937d6a3dae7c19e97de846b5e674e883ebf5e9db9",
       "alias": [],
       "slots": [
         {
@@ -2829,6 +3000,24 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 營建用提升機（EN12158-1）"
+        },
+        {
+          "id": "CKBOXC",
+          "field": "竣工框",
+          "round": null,
+          "ctx": "{{竣工框}}竣工"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{變更框}}變更{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -3092,7 +3281,7 @@
       "code": "W3-62-02D",
       "file": "W3-62-02D.docx",
       "rev": "110.09",
-      "name": "鍋爐 □構造 □變更 檢查結果及會談紀錄",
+      "name": "鍋爐 {{構造框}}構造 {{變更框}}變更 檢查結果及會談紀錄",
       "source": "W3-62-02D鍋爐構造變更檢查結果及會談紀錄.docx",
       "ecCodes": [
         "B"
@@ -3111,6 +3300,8 @@
       "ecType": "A",
       "placeholders": [
         "BSNAME",
+        "CKBOXM",
+        "CKBOXU",
         "CKD",
         "CKM",
         "CKY",
@@ -3125,8 +3316,8 @@
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 25059,
-      "sha256": "1a603235fd78ee8322ac87ddcac932c3dbe2705141ad9e05f4a57f783a6a963d",
+      "size": 25073,
+      "sha256": "2c0575ed99702b70578b6a992fb67245e0a7c85229dc48612ae871136f4c3d21",
       "alias": [],
       "slots": [
         {
@@ -3134,6 +3325,18 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "（{{單位全銜}}）鍋爐"
+        },
+        {
+          "id": "CKBOXU",
+          "field": "構造框",
+          "round": null,
+          "ctx": "{{構造框}}構造"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{變更框}}變更"
         },
         {
           "id": "FIRSTCK",
@@ -3222,7 +3425,7 @@
       "code": "W3-62-03D",
       "file": "W3-62-03D.docx",
       "rev": "109.12",
-      "name": "鍋爐 □竣工 □重新 檢查結果及會談紀錄",
+      "name": "鍋爐 {{竣工框}}竣工 {{重新框}}重新 檢查結果及會談紀錄",
       "source": "W3-62-03D鍋爐竣工重新檢查結果及會談紀錄110.05.docx",
       "ecCodes": [
         "B"
@@ -3241,6 +3444,8 @@
       "ecType": "A",
       "placeholders": [
         "BSNAME",
+        "CKBOXC",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -3255,8 +3460,8 @@
         "RECKNO",
         "STRUCKNO"
       ],
-      "size": 25131,
-      "sha256": "13cc530ff59353a403e54bfdaa0c17c7c49709832e4df40d189b7237e3534559",
+      "size": 25143,
+      "sha256": "5172cdaaa6f06786f65de167fa8fb01b116aacfd41e630af06c11b599503ed14",
       "alias": [],
       "slots": [
         {
@@ -3264,6 +3469,18 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "（{{單位全銜}}）鍋爐"
+        },
+        {
+          "id": "CKBOXC",
+          "field": "竣工框",
+          "round": null,
+          "ctx": "{{竣工框}}竣工"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -3652,7 +3869,7 @@
       "code": "W3-62-06B",
       "file": "W3-62-06B.docx",
       "rev": "99.1",
-      "name": "□第一種壓力容器 □構造 檢查結果及會談紀錄",
+      "name": "□第一種壓力容器 {{構造框}}構造 檢查結果及會談紀錄",
       "source": "W3-62-06B第一種壓力容器及高特構造、變更檢查結果及會談紀錄.docx",
       "ecCodes": [
         "P",
@@ -3673,6 +3890,8 @@
       "ecType": "A",
       "placeholders": [
         "BSNAME",
+        "CKBOXM",
+        "CKBOXU",
         "CKD",
         "CKM",
         "CKY",
@@ -3687,8 +3906,8 @@
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 25350,
-      "sha256": "d62173b0dd999ad16a1832da0ab0914a1b1490f17a2145c30d99b392ddddb92c",
+      "size": 25365,
+      "sha256": "f13857d97756533cd04aec4fd0ac1d71ddf429cba8e8ebedc066e32e4a3d890d",
       "alias": [],
       "slots": [
         {
@@ -3696,6 +3915,18 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} )"
+        },
+        {
+          "id": "CKBOXU",
+          "field": "構造框",
+          "round": null,
+          "ctx": "{{構造框}}構造"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{變更框}}變更"
         },
         {
           "id": "FIRSTCK",
@@ -3784,7 +4015,7 @@
       "code": "W3-62-07C",
       "file": "W3-62-07C.docx",
       "rev": "102.09",
-      "name": "第一種壓力容器 □竣工 □重新 檢查結果及會談紀錄",
+      "name": "第一種壓力容器 {{竣工框}}竣工 {{重新框}}重新 檢查結果及會談紀錄",
       "source": "W3-62-07C第一種壓力容器重新、竣工檢查結果及會談紀錄.docx",
       "ecCodes": [
         "P"
@@ -3803,6 +4034,8 @@
       "ecType": "A",
       "placeholders": [
         "BSNAME",
+        "CKBOXC",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -3817,8 +4050,8 @@
         "RECKNO",
         "STRUCKNO"
       ],
-      "size": 25115,
-      "sha256": "0ee4b391f427f5f79a1180b163c0ad6b695c53ff13805eca1cc9b4e1e240e19e",
+      "size": 25125,
+      "sha256": "341209338200a8ab60a1cfaf91821405c991b5fad7f35e0e7f2d849a81dfc086",
       "alias": [],
       "slots": [
         {
@@ -3826,6 +4059,18 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} ) 第一種壓力容器"
+        },
+        {
+          "id": "CKBOXC",
+          "field": "竣工框",
+          "round": null,
+          "ctx": "{{竣工框}}竣工"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -4156,7 +4401,7 @@
       "code": "W3-62-10D",
       "file": "W3-62-10D.docx",
       "rev": "113.08",
-      "name": "高壓氣體特定設備 □竣工 □重新 檢查結果及會談紀錄",
+      "name": "高壓氣體特定設備 {{竣工框}}竣工 {{重新框}}重新 檢查結果及會談紀錄",
       "source": "W3-62-10D高壓氣體特定設備重新竣工檢查結果及會談紀錄.docx",
       "ecCodes": [
         "S"
@@ -4175,6 +4420,8 @@
       "ecType": "A",
       "placeholders": [
         "BSNAME",
+        "CKBOXC",
+        "CKBOXR",
         "CKD",
         "CKM",
         "CKY",
@@ -4189,8 +4436,8 @@
         "RECKNO",
         "STRUCKNO"
       ],
-      "size": 29165,
-      "sha256": "5593cc03680e45e6d5f100c1146a7ceef613cd63e462b02f9cbf40a997b327f6",
+      "size": 29174,
+      "sha256": "095f86eb80d750b6d25e6238438e9e56f9bc43e1f993e128f80a161904ebf023",
       "alias": [],
       "slots": [
         {
@@ -4198,6 +4445,18 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "( {{單位全銜}} )高壓氣體特定設備"
+        },
+        {
+          "id": "CKBOXC",
+          "field": "竣工框",
+          "round": null,
+          "ctx": "{{竣工框}}竣工"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -4584,7 +4843,7 @@
       "code": "W3-62-13C",
       "file": "W3-62-13C.docx",
       "rev": "102.06",
-      "name": "高壓氣體容器 □構造□變更 檢查結果及會談紀錄",
+      "name": "高壓氣體容器 {{構造框}}構造{{變更框}}變更 檢查結果及會談紀錄",
       "source": "W3-62-13C高壓氣體容器構造、變更、重新檢查結果及會談紀錄.docx",
       "ecCodes": [
         "H"
@@ -4605,6 +4864,9 @@
       "ecType": "A",
       "placeholders": [
         "BSNAME",
+        "CKBOXM",
+        "CKBOXR",
+        "CKBOXU",
         "CKD",
         "CKM",
         "CKY",
@@ -4619,8 +4881,8 @@
         "TYPENAME",
         "WELDCKNO"
       ],
-      "size": 28398,
-      "sha256": "ec59fca6a89329085e1934e129c6ea6d7c5404a9354bf23e82785ef6564f19fb",
+      "size": 28411,
+      "sha256": "479c5adf365cefac335f198a07ec52b8c130f9c2bd20070ea8fe70fd6f74b351",
       "alias": [],
       "slots": [
         {
@@ -4628,6 +4890,24 @@
           "field": "單位全銜",
           "round": null,
           "ctx": "({{單位全銜}}) 高壓氣體容器"
+        },
+        {
+          "id": "CKBOXU",
+          "field": "構造框",
+          "round": null,
+          "ctx": "{{構造框}}構造{{變更框}}變更"
+        },
+        {
+          "id": "CKBOXM",
+          "field": "變更框",
+          "round": null,
+          "ctx": "{{構造框}}構造{{變更框}}變更"
+        },
+        {
+          "id": "CKBOXR",
+          "field": "重新框",
+          "round": null,
+          "ctx": "{{重新框}}重新"
         },
         {
           "id": "FIRSTCK",
@@ -6771,6 +7051,54 @@
       "zh": "複檢勾選框",
       "source": "applyCaseDetail.chkType",
       "note": "chkType=2 時填 ■，否則 □"
+    },
+    {
+      "id": "CKBOXC",
+      "zh": "竣工勾選框",
+      "source": "jourjudge.ckCode",
+      "note": "ckCode=C 時填 ■"
+    },
+    {
+      "id": "CKBOXM",
+      "zh": "變更勾選框",
+      "source": "jourjudge.ckCode",
+      "note": "ckCode=M 時填 ■"
+    },
+    {
+      "id": "CKBOXR",
+      "zh": "重新勾選框",
+      "source": "jourjudge.ckCode",
+      "note": "ckCode=R 時填 ■"
+    },
+    {
+      "id": "CKBOXL",
+      "zh": "既有勾選框",
+      "source": "jourjudge.ckCode",
+      "note": "ckCode=L 時填 ■"
+    },
+    {
+      "id": "CKBOXU",
+      "zh": "構造勾選框",
+      "source": "jourjudge.ckCode",
+      "note": "ckCode=U 時填 ■"
+    },
+    {
+      "id": "CKBOXW",
+      "zh": "熔接勾選框",
+      "source": "jourjudge.ckCode",
+      "note": "ckCode=W 時填 ■"
+    },
+    {
+      "id": "CKBOX0",
+      "zh": "使用勾選框",
+      "source": "jourjudge.ckCode",
+      "note": "ckCode=0 時填 ■"
+    },
+    {
+      "id": "CKBOXF",
+      "zh": "定期勾選框",
+      "source": "jourjudge.ckCode",
+      "note": "ckCode=F 時填 ■"
     }
   ],
   "irCodes": {
