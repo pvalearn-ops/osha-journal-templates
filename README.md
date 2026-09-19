@@ -26,7 +26,7 @@ templates/*.docx    範本本體，檔名＝表單編號
 |---|---|---|---|---|
 | `{{ORG}}` | 單位全銜 | 固定值 | 50 | 檢查機構全銜，填在標題的括號裡 |
 | `{{BSNAME}}` | 事業單位名稱 | jourjudge.bsName | 50 |  |
-| `{{EQNO}}` | 設備編號 | jourjudge.registerNo | 17 | 13 碼，設備類表單用 |
+| `{{EQNO}}` | 設備編號 | jourjudge.registerNo | 19 | 13 碼，設備類表單用 |
 | `{{MHNO}}` | 機械編號 | jourjudge.registerNo | 9 | 13 碼，機械類表單用 |
 | `{{STAMPNO}}` | 打印(漆印)號碼 | jourjudge.structureNo | 14 | 10 碼構造號碼 |
 | `{{TYPE}}` | 型式 | jourjudge.efCodeChi | 17 |  |
@@ -42,9 +42,9 @@ templates/*.docx    範本本體，檔名＝表單編號
 | `{{WELDCKNO}}` | 熔接檢查號碼 | 前案 apNo | 7 |  |
 | `{{RECKNO}}` | 重新檢查號碼 | 前案 apNo | 4 |  |
 | `{{EXCKNO}}` | 既有檢查號碼 | 前案 apNo | 4 |  |
-| `{{CKY}}` | 檢查年 | jourjudge.chkDate | 48 | 民國年 |
-| `{{CKM}}` | 檢查月 | jourjudge.chkDate | 48 |  |
-| `{{CKD}}` | 檢查日 | jourjudge.chkDate | 48 |  |
+| `{{CKY}}` | 檢查年 | jourjudge.chkDate | 50 | 民國年 |
+| `{{CKM}}` | 檢查月 | jourjudge.chkDate | 50 |  |
+| `{{CKD}}` | 檢查日 | jourjudge.chkDate | 50 |  |
 | `{{INH}}` | 到場時 | jourjudge.chkDate | 46 |  |
 | `{{INM}}` | 到場分 | jourjudge.chkDate | 46 |  |
 | `{{OUTH}}` | 離場時 | 使用者輸入 | 43 | RMEMS 沒有這個欄位 |
@@ -92,6 +92,8 @@ templates/*.docx    範本本體，檔名＝表單編號
 
 | 表單編號 | 版次 | 種類 | 檢查種類 | 錨點數 | 名稱 |
 |---|---|---|---|---|---|
+| `THICK-B` |  | 鍋爐 | 定期檢查 | 4 | 危險性設備測厚表（鍋爐） |
+| `THICK-P` |  | 第一種壓力容器、高壓氣體特定設備、高壓氣體容器 | 定期檢查 | 4 | 危險性設備測厚表（壓力容器、高壓氣體） |
 | `W3-02-01D` | 102.04 | 固定式起重機 | 竣工檢查 | 11 | 固定式起重機竣工檢查結果及會談紀錄 |
 | `W3-02-02C` | 102.04 | 移動式起重機 | 使用檢查 | 8 | 移動式起重機使用檢查結果及會談紀錄 |
 | `W3-02-03B` | 98.10 | 人字臂起重桿 | 竣工檢查 | 11 | 人字臂起重桿竣工檢查結果及會談紀錄 |
