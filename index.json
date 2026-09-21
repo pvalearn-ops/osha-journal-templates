@@ -37,15 +37,15 @@
     "STAMPNO",
     "TYPE"
    ],
-   "size": 32889,
-   "sha256": "6ba76a9eca4c50d1d75ffdb48211a1d69ff2f973b1d2828d897ba768e637fa3e",
+   "size": 32880,
+   "sha256": "192261376f674f858de6c6b53917e378e44433706b5bf0ea6a48882e0f66a5d2",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})固定式起重機竣工檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}固定式起重機竣工檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -141,15 +141,15 @@
     "STAMPNO",
     "TYPE"
    ],
-   "size": 24884,
-   "sha256": "1fb107352d53f32656e9edb5ead856483c267655fb589b8bea859723df2fc36f",
+   "size": 24880,
+   "sha256": "5e31d56bedaccbca1da23d7b52fb9d5bff66cd82b3e5ac56281b2b926ff830f9",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})移動式起重機使用檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}移動式起重機使用檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -230,15 +230,15 @@
     "STAMPNO",
     "TYPE"
    ],
-   "size": 26050,
-   "sha256": "81f3d229b2c30c6f343d1a5080f71fac59f8e7a6b35b5b32f941900b2e51f7ce",
+   "size": 26041,
+   "sha256": "f3348748b4ad627d240574aacf3b4a16290bf14a343865533ce7d4384dcaca66",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})人字臂起重桿竣工檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}人字臂起重桿竣工檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -334,15 +334,15 @@
     "STAMPNO",
     "TYPE"
    ],
-   "size": 31368,
-   "sha256": "07b4a8fffea3f9a89f549260a271e25683503194f248e5bb0308dcd704c7534f",
+   "size": 31362,
+   "sha256": "7581aeda269fdb46242d0ebd94d610db46f6c2dd6f5084ce37fe3c2ad96b85b6",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})吊籠使用檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}吊籠使用檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -426,15 +426,15 @@
     "RECK",
     "TYPE"
    ],
-   "size": 28276,
-   "sha256": "0b8e73bff4eedb326f8723b2d54e0fb65c9dde4a62f383f76bd44b3d215c1c25",
+   "size": 28274,
+   "sha256": "65dd0d3559bb9e2fc05ba32da386f79d5c51b64493d1be8f8a70aa95cda18d29",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})固定式起重機定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}固定式起重機定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -523,7 +523,7 @@
    "code": "W3-61-02D",
    "file": "W3-61-02D.docx",
    "rev": "102.04",
-   "name": "固定式起重機 {{既有框}}既有 {{變更框}}變更 {{重新框}}重新 ( ) 檢查結果及會談紀錄",
+   "name": "固定式起重機 {{既有框}}既有 {{變更框}}變更 {{重新框}}重新 檢查結果及會談紀錄",
    "source": "W3-61-02D-固定式起重機既有、重新、變更檢查結果及會談紀錄.docx",
    "ecCodes": [
     "F"
@@ -561,8 +561,8 @@
     "STAMPNO",
     "TYPE"
    ],
-   "size": 31602,
-   "sha256": "2e0c2d0b0f331c3386cd13d77fa98b5df42da200e78a6f049151fa8398efda03",
+   "size": 31596,
+   "sha256": "50bda84fbf1ab7ee1eee51c26657f1180187184655b93376d2cfd02df46e315d",
    "alias": [],
    "slots": [
     {
@@ -587,7 +587,7 @@
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} ) 檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -708,8 +708,8 @@
     "RECK",
     "TYPE"
    ],
-   "size": 26878,
-   "sha256": "98a52f384a5cd469ca1a839aa570cd026ee4b7d6ca661a613a1ca04bcf2bfc5a",
+   "size": 26867,
+   "sha256": "922a9fdda91d1760e205ea6b79905dc0164f89fce17c84070acc95566775c798",
    "alias": [],
    "slots": [
     {
@@ -850,15 +850,15 @@
     "STAMPNO",
     "TYPE"
    ],
-   "size": 22940,
-   "sha256": "3fe3a51a47213076437c6c05522ece235f7412c2b64b0e8d2a13ac1830eb2301",
+   "size": 22931,
+   "sha256": "bcf947bcd8e568fe45815a7d62a00d5bf91413d5be40a5e8d8fd3524fae55ea6",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} )移動式起重機"
+     "ctx": "{{單位全銜}}移動式起重機"
     },
     {
      "id": "CKBOXL",
@@ -1003,15 +1003,15 @@
     "RECK",
     "TYPE"
    ],
-   "size": 28766,
-   "sha256": "8c6c61b352d015334fa54b28e1f341dc14828777769220823c634473956f1d04",
+   "size": 28759,
+   "sha256": "30bc18af99c42b62d9fbf0f7e654c3a824f0f717d65faecec14866f2d443ff8d",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})吊籠定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}吊籠定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -1145,15 +1145,15 @@
     "STAMPNO",
     "TYPE"
    ],
-   "size": 28878,
-   "sha256": "d355dfe4d12cd723b5c428949d9d5da3388875a81055900b6333b57d17d07ebf",
+   "size": 28871,
+   "sha256": "2c8fc20e35ef4ce2c5e56087e32389255e47d6f88d2699a2bd64812846a2c947",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} ) 吊籠"
+     "ctx": "{{單位全銜}} 吊籠"
     },
     {
      "id": "CKBOXL",
@@ -1297,15 +1297,15 @@
     "RECK",
     "TYPE"
    ],
-   "size": 31511,
-   "sha256": "a063dd6b4faa3d020078d1fa2f1769702bf49270ef06ae5fe779fb77729cbee6",
+   "size": 31508,
+   "sha256": "6dc94c9b580b2c558fa077c711c55caa7d1b02fb3facfd6bc8b19d6afffdc4d3",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 營建用升降機(CNS13627)定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 營建用升降機(CNS13627)定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -1424,15 +1424,15 @@
     "RECK",
     "STAMPNO"
    ],
-   "size": 40321,
-   "sha256": "48d6605e493b91be42be289d2f2bcbe46e75d937c2e24806766be4b57baba02a",
+   "size": 40316,
+   "sha256": "73fff6a4351a25291eac181495b4dcade4edae3051f06c16a9c0832afd9bb0ef",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 既有營建用升降機（齒條式）"
+     "ctx": "{{單位全銜}} 既有營建用升降機（齒條式）"
     },
     {
      "id": "FIRSTCK",
@@ -1553,15 +1553,15 @@
     "SITELOC",
     "STAMPNO"
    ],
-   "size": 34531,
-   "sha256": "94448e7439e25ff3627df9f8714c46bf370ce707b281a9fc35b6c72c084677d6",
+   "size": 34527,
+   "sha256": "e44ccc6462de05d0ab4ff0bedaf17ce0d8da838e243a2285a7122140149b888c",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})營建用升降機（EN 1495）"
+     "ctx": "{{單位全銜}}營建用升降機（EN 1495）"
     },
     {
      "id": "CKBOXC",
@@ -1707,15 +1707,15 @@
     "STAMPNO",
     "TYPEUSE"
    ],
-   "size": 41840,
-   "sha256": "6304cc94c09017ae7be642d9e2155c8fb38b7d86c8be6eb5ca7dbcbba801672d",
+   "size": 41835,
+   "sha256": "12422c85332b2e5de87bcc93d56a0c7f31103038baf26a1c7f422d7dcc450d27",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})營建用升降機（EN12159）"
+     "ctx": "{{單位全銜}}營建用升降機（EN12159）"
     },
     {
      "id": "CKBOXC",
@@ -1859,15 +1859,15 @@
     "RECK",
     "TYPE"
    ],
-   "size": 38159,
-   "sha256": "dc4a484c471f12d506da40100002245eda3c29df5183b3fd1a3de819a5ba00ef",
+   "size": 38152,
+   "sha256": "5f2db089169a9643e2c47f426f0b3e4e21e585b67aa123530c49e5d79a823bbe",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} ) 營建用升降機（EN12159）定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 營建用升降機（EN12159）定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -1987,15 +1987,15 @@
     "RECK",
     "TYPE"
    ],
-   "size": 28431,
-   "sha256": "ee6a5650d93393f457a23d48b94165990468df3e8ac4c0dce45d0f95cb6a6a93",
+   "size": 28427,
+   "sha256": "e32c14590b04d378a1fb72db1505e64fa672bf2433c3cdb3bd07b128899520ca",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 營建用升降機（EN 1495）定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 營建用升降機（EN 1495）定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -2123,15 +2123,15 @@
     "STAMPNO",
     "TYPE"
    ],
-   "size": 22704,
-   "sha256": "1724204c48d1b24121e15cc052fe9d12978c029f937de95efbd8433376aef6a1",
+   "size": 22700,
+   "sha256": "0583bbf08768f27fc0b953d5cd8956e4aebf4647f8ce32b37dc08ecedc7defb8",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})移動式起重機(EN 13000)"
+     "ctx": "{{單位全銜}}移動式起重機(EN 13000)"
     },
     {
      "id": "CKBOXL",
@@ -2274,15 +2274,15 @@
     "RECK",
     "TYPE"
    ],
-   "size": 33930,
-   "sha256": "4d9219962b6152b8e535bcbe1632b824ee70c9af4b2e3f7bdb9ee34055eccb1e",
+   "size": 33923,
+   "sha256": "c94be302b2be199ecb82bdda60c93524d261fe4371daf5c8a0c90108d12656d8",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})移動式起重機(EN 13000)定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}移動式起重機(EN 13000)定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -2414,8 +2414,8 @@
     "STAMPNO",
     "TYPEUSE"
    ],
-   "size": 42336,
-   "sha256": "6540ac4cbace82eb5b0adacf04e2686830a70b4d3fc9fb31c2f2553e7ecf10fa",
+   "size": 42330,
+   "sha256": "67bb2ef0ad537df175b2cb0e89c9b8fb8b45ebb03c47ed3866a327f06ae529f2",
    "alias": [
     "W3-02-04"
    ],
@@ -2424,7 +2424,7 @@
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 營建用升降機"
+     "ctx": "{{單位全銜}} 營建用升降機"
     },
     {
      "id": "CKBOXC",
@@ -2568,8 +2568,8 @@
     "RECK",
     "TYPE"
    ],
-   "size": 26439,
-   "sha256": "effe95cebcfdd07ff00eb61775411a55a26793e7732489d9da146ceb07dd1f99",
+   "size": 26429,
+   "sha256": "fb3c3ff781fdac9183b70657e2fe83656037626ac34e14ad36f962b2e3d24cd7",
    "alias": [
     "QP-12-01"
    ],
@@ -2578,7 +2578,7 @@
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})人字臂起重桿定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}人字臂起重桿定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -2696,8 +2696,8 @@
     "RECK",
     "TYPE"
    ],
-   "size": 28757,
-   "sha256": "63c2bae3321daf7a3c0da8cbe143347b992b6adbd2eff195955eeec326486337",
+   "size": 28752,
+   "sha256": "4eea2adfceb813031d2aec5a481f1e9b098a76bb06435726b8ddcf9831988736",
    "alias": [
     "QP-12-02"
    ],
@@ -2706,7 +2706,7 @@
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 營建用提升機(CNS 13628)定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 營建用提升機(CNS 13628)定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -2832,8 +2832,8 @@
     "STAMPNO",
     "TYPEUSE"
    ],
-   "size": 29110,
-   "sha256": "2366d8b3ce54dbb732b8945f84aa5461336383aa0ed9cd332fecba5b927f91e7",
+   "size": 29107,
+   "sha256": "ca65ff0dd7705f90cde28c44a5899a945f5e61bc168443238dd92f2909b261df",
    "alias": [
     "QP-12-03"
    ],
@@ -2842,13 +2842,13 @@
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 營建用提升機(CNS 13628) {{竣工框}}竣工檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 營建用提升機(CNS 13628) {{竣工框}}竣工檢查結果及會談紀錄"
     },
     {
      "id": "CKBOXC",
      "field": "竣工框",
      "round": null,
-     "ctx": "({{單位全銜}}) 營建用提升機(CNS 13628) {{竣工框}}竣工檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 營建用提升機(CNS 13628) {{竣工框}}竣工檢查結果及會談紀錄"
     },
     {
      "id": "CKBOXM",
@@ -2991,15 +2991,15 @@
     "SITELOC",
     "STAMPNO"
    ],
-   "size": 53275,
-   "sha256": "a144262ce88b2241fbfde51937d6a3dae7c19e97de846b5e674e883ebf5e9db9",
+   "size": 53269,
+   "sha256": "b116fbb87186b87ecce813708cb8af5f3e99638d0a065f52c4fcfec60dfc18e6",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 營建用提升機（EN12158-1）"
+     "ctx": "{{單位全銜}} 營建用提升機（EN12158-1）"
     },
     {
      "id": "CKBOXC",
@@ -3142,15 +3142,15 @@
     "TYPENAME",
     "WELDCKNO"
    ],
-   "size": 33797,
-   "sha256": "c4f44e84e9891949ffd027665e84f2d686dccb6257a0f2dd45a49734f7b19619",
+   "size": 33791,
+   "sha256": "67ccaf55ace8b4c4c265ccd04441ec9976b5b99820b96ba004e6081e5d9f285c",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "（{{單位全銜}}）鍋爐熔接檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}鍋爐熔接檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -3316,15 +3316,15 @@
     "TYPENAME",
     "WELDCKNO"
    ],
-   "size": 25075,
-   "sha256": "6ff782b2af11ab7874d9596dbac0e066bec9f076c2873ce3016ae509dced53f3",
+   "size": 25070,
+   "sha256": "402302261f51093a7e65dd4249e4cd4f7b26ba8c11422a7b38eac621e1ea8a8d",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "（{{單位全銜}}）鍋爐"
+     "ctx": "{{單位全銜}}鍋爐"
     },
     {
      "id": "CKBOXU",
@@ -3460,15 +3460,15 @@
     "RECKNO",
     "STRUCKNO"
    ],
-   "size": 25144,
-   "sha256": "f4a0d0ae15595f2831ab77d5cedb7760f0cfd660e8fb9f5f060ea474e4fed821",
+   "size": 25137,
+   "sha256": "1626e0cfa473365cbaedb416fc122df3d6f4c9f6459d079c7749afff4105b1f8",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "（{{單位全銜}}）鍋爐"
+     "ctx": "{{單位全銜}}鍋爐"
     },
     {
      "id": "CKBOXC",
@@ -3599,15 +3599,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 19636,
-   "sha256": "6287faa4febb69f4e9adf67b414e10662515d48418bb713b1df79bc042f01fe0",
+   "size": 19628,
+   "sha256": "90ea1c96bf2d3b3e22d4e56c5f54dd440f905cc154e865b9f3d493df12a59cfc",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 鍋爐定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 鍋爐定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -3732,15 +3732,15 @@
     "TYPENAME",
     "WELDCKNO"
    ],
-   "size": 24935,
-   "sha256": "fc7b41610577986cbb7d81427a6c0a4eb6bd819daf9c63c3cb85c95072807ed2",
+   "size": 24929,
+   "sha256": "eb907375db157894fbb067731b5479ae4862c57249803522f0f886d3061b790d",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} )"
+     "ctx": "{{單位全銜}}"
     },
     {
      "id": "EQBOXP",
@@ -3922,15 +3922,15 @@
     "TYPENAME",
     "WELDCKNO"
    ],
-   "size": 25387,
-   "sha256": "65fce33874d57d4c79f8d3fdb268487da57da6268fd914b950d5fac88fbcef39",
+   "size": 25375,
+   "sha256": "e0fc2b83fec7131f92fba40676e4039746f051e4b23d461bb09c971ded634cea",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} )"
+     "ctx": "{{單位全銜}}"
     },
     {
      "id": "EQBOXP",
@@ -4078,15 +4078,15 @@
     "RECKNO",
     "STRUCKNO"
    ],
-   "size": 25127,
-   "sha256": "7e55c2ef10477782644f1fa890fbf59caf9bfb2914a39eb2e00c63674da352b8",
+   "size": 25119,
+   "sha256": "1a85ddd0dc103a0c3539a00a81182942a03b51574bfa69be3bc07b8b865f0053",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} ) 第一種壓力容器"
+     "ctx": "{{單位全銜}} 第一種壓力容器"
     },
     {
      "id": "CKBOXC",
@@ -4217,15 +4217,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 28618,
-   "sha256": "2b67729d4f139652313644c34d68bb8894748fa83964600fee3cd2434b535090",
+   "size": 28616,
+   "sha256": "7950d136dfde5c339ff4cf47e65933b9c2fa365cd5b421fb767c70353679c758",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})第一種壓力容器定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}第一種壓力容器定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -4338,15 +4338,15 @@
     "RECK",
     "TYPENAME"
    ],
-   "size": 26383,
-   "sha256": "5f6259a63d0e82c2ef8dafa9970ba53b3e3826fa7e94588d9b1ae0411e630937",
+   "size": 26380,
+   "sha256": "ac9b769580b1bf06e0b12e2460e4b77b220ae5109bf4a984645a0fa2ff8dc900",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})"
+     "ctx": "{{單位全銜}}"
     },
     {
      "id": "FIRSTCK",
@@ -4464,15 +4464,15 @@
     "RECKNO",
     "STRUCKNO"
    ],
-   "size": 29176,
-   "sha256": "82a670867a19137074d5f128f3d23915732a62b41b6f368d31e1fb6f3eb166ce",
+   "size": 29168,
+   "sha256": "aa133a53640ea7fdb020fb7c7a005617b9f15d0edc97959738efcb1bdf14c365",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} )高壓氣體特定設備"
+     "ctx": "{{單位全銜}}高壓氣體特定設備"
     },
     {
      "id": "CKBOXC",
@@ -4603,15 +4603,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 28456,
-   "sha256": "d2c75e8466bbf5514992e0949f97c18cf2d5f2706ce0e6056831dd852161635f",
+   "size": 28452,
+   "sha256": "af4e80e34fb9c38cfdd67f0d9d1cc384089cc33bd8e18416c34ffb2bfddd9cc0",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})高壓氣體特定設備定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}高壓氣體特定設備定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -4732,15 +4732,15 @@
     "TYPENAME",
     "WELDCKNO"
    ],
-   "size": 26511,
-   "sha256": "743f15d64df6ee2b5b7b2162966439e22aeb90aa5616ec64ecf3bb14b0dfce32",
+   "size": 26507,
+   "sha256": "0f9d5b2248fe1e9b8c5de1d39a99181e72d953427d324a40b093f14baac1e78d",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 高壓氣體容器熔接檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 高壓氣體容器熔接檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -4909,15 +4909,15 @@
     "TYPENAME",
     "WELDCKNO"
    ],
-   "size": 28415,
-   "sha256": "0e81f13dcc89d80ae127f767c42f46d92242907d979d43fb403af8f2d40bbbb3",
+   "size": 28411,
+   "sha256": "c66acad1a9ce4d4f6f9488d8e344ee89669010644cbb787e3e6c0a1c66313f05",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 高壓氣體容器"
+     "ctx": "{{單位全銜}} 高壓氣體容器"
     },
     {
      "id": "CKBOXU",
@@ -5054,15 +5054,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 29896,
-   "sha256": "8934b76e18495cf8a3a510792a0cb755b1023e5a9fff4293152ed0f48e0c7d10",
+   "size": 29888,
+   "sha256": "37366d21452d51d3c01cf82e1e3bddea69b5d03869f7bb776ebedfac4ad67194",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})高壓氣體容器定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}高壓氣體容器定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -5182,15 +5182,15 @@
     "OUTM2",
     "RECK"
    ],
-   "size": 27625,
-   "sha256": "e904a84133a0018dd0a5da49beda1f387a22b343b5d18799457fa8ea6659fd73",
+   "size": 27620,
+   "sha256": "5e1c7bcdbf025f5f05754e06dc9dc908f1d4d25bf618726d3a299513e622c5d3",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})第一種壓力容器內部檢查延長期限或替代檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}第一種壓力容器內部檢查延長期限或替代檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -5345,15 +5345,15 @@
     "RECK",
     "TYPENAME"
    ],
-   "size": 27435,
-   "sha256": "b0a0a026e25b9d7c3ce92aece71709cacd0e49a507b958772a537ea22de45e91",
+   "size": 27428,
+   "sha256": "b01c654de35867bd18176b080a58628de9f5355b327b36c049563edc35e13c5e",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})"
+     "ctx": "{{單位全銜}}"
     },
     {
      "id": "FIRSTCK",
@@ -5473,15 +5473,15 @@
     "OUTM2",
     "RECK"
    ],
-   "size": 28312,
-   "sha256": "23c98993f213590c566f7bc9a706898d727c1934ed85dc58e17b86f4e254d3a9",
+   "size": 28308,
+   "sha256": "5de8ca7b39faa14858ba3b4a3dd42079d2925574e56f8df574076c1fe9ddfc37",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 高壓氣體特定設備檢查結果及會談紀錄(適用第133條)"
+     "ctx": "{{單位全銜}} 高壓氣體特定設備檢查結果及會談紀錄(適用第133條)"
     },
     {
      "id": "FIRSTCK",
@@ -5636,15 +5636,15 @@
     "RECK",
     "TYPENAME"
    ],
-   "size": 26157,
-   "sha256": "50597bb283a388ae197ba156d39a3f6b68c4d5390e494f6d4c9afd3681735284",
+   "size": 26155,
+   "sha256": "250b4889558aae8a678df770973d94d5b21d5285df8360dda720c1c5071df5d2",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})既有高壓氣體容器檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}既有高壓氣體容器檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -5757,15 +5757,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 23061,
-   "sha256": "07d6bf166676cfaf365eeb3c285716556f567bdb5c34cda35624713970b667fa",
+   "size": 23056,
+   "sha256": "217ad741040343c58a3acdef121ed806d43839a831a9ff976819970ef8a9a64b",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})高壓氣體容器內部檢查延長期限或替代檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}高壓氣體容器內部檢查延長期限或替代檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -5878,15 +5878,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 25167,
-   "sha256": "a3a0935577a860f1e83fcd69a43b4aa4f51d531026fbe9f31ce4e370f7392eed",
+   "size": 25160,
+   "sha256": "9f64b244c55e256f7eeed79874aca11d38caf443980024fe1f348c8d76518241",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "( {{單位全銜}} ) 既有鍋爐檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 既有鍋爐檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -6000,15 +6000,15 @@
     "TYPENAME",
     "WELDCKNO"
    ],
-   "size": 25522,
-   "sha256": "2fbdad78bf56b8c5ca811e947e7d953cda8742bc6b3033f53c9abf453c8d0b60",
+   "size": 25520,
+   "sha256": "873b8adcd6a8f56e79b9d668eec9370eb2e9d0c45d23e81c5b43d76c82a138bf",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})高壓氣體容器(國外進口)重新檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}高壓氣體容器(國外進口)重新檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -6127,15 +6127,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 31082,
-   "sha256": "12be539fbe1d9834f4f22a3b3b83ce7d84c1b3c4656de84ec8a85f647eeebc27",
+   "size": 31079,
+   "sha256": "ac9b6dc82b2a63845eec77f4d4197fe4b3ceb8ea1d8e35a8c5acef9d7d08cb4c",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})高壓氣體特定設備檢查結果及會談紀錄(適用第132條備註2、3)"
+     "ctx": "{{單位全銜}}高壓氣體特定設備檢查結果及會談紀錄(適用第132條備註2、3)"
     },
     {
      "id": "FIRSTCK",
@@ -6248,15 +6248,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 32796,
-   "sha256": "b10cb843370cca1abd4f58b477de97747eda6f67b710cb6e34ea83d29e762399",
+   "size": 32792,
+   "sha256": "66df58e71ded82a0e64e875afdb7c61c71eb5158505f04d8e90ad72c16fd7a2a",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 高壓氣體特定設備（覆土式儲槽) 定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 高壓氣體特定設備（覆土式儲槽) 定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -6369,15 +6369,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 35338,
-   "sha256": "aaae28c2424d7af700039e3873166aa9b097dfd0f71fd4528cb6812f50fbde83",
+   "size": 35334,
+   "sha256": "184f7813b8fd8d5ffd9d920e083ab69e69616d0a8c47529055c65d2ccef899ed",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}}) 高壓氣體特定設備（覆土式儲槽) 定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}} 高壓氣體特定設備（覆土式儲槽) 定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -6488,15 +6488,15 @@
     "OUTM",
     "RECK"
    ],
-   "size": 28202,
-   "sha256": "44550ecf5258b2a188244703cab2952b78be37d21aa05ddebbeab4469455e60c",
+   "size": 28196,
+   "sha256": "1e98691a08193082b7157b616d05719f8acbd5ffcb938368e2721e3cee50a473",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})高壓氣體特定設備液化天然氣儲槽第二期(LNG儲槽)定期檢查結果及會談紀錄"
+     "ctx": "{{單位全銜}}高壓氣體特定設備液化天然氣儲槽第二期(LNG儲槽)定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -6615,14 +6615,14 @@
     "RECK"
    ],
    "size": 33536,
-   "sha256": "7507ef0b4b8da54315cab9c860cd8da1e16a3060e059bf1475e6f4886b233a1e",
+   "sha256": "cf68e09427582c2c5063fa55ec4a6b83fb3ca2f89c95a160b870975b0377ce74",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})高壓氣體特定設備定期檢查結果及會談紀錄(適用加熱爐)"
+     "ctx": "{{單位全銜}}高壓氣體特定設備定期檢查結果及會談紀錄(適用加熱爐)"
     },
     {
      "id": "FIRSTCK",
@@ -6788,15 +6788,15 @@
     "OUTM2",
     "RECK"
    ],
-   "size": 34790,
-   "sha256": "32b5b918546b523a08b089d6436488b6d0e036856d0fe26482ee2ba825afa053",
+   "size": 34786,
+   "sha256": "288ba5b41a4361df63ccdb6926b7f39a4de032c3b8bdc434a2a7d554959576c1",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "({{單位全銜}})"
+     "ctx": "{{單位全銜}}"
     },
     {
      "id": "EQBOXP",
