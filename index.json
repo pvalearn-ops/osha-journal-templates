@@ -306,6 +306,90 @@
    ]
   },
   {
+   "code": "W3-02-03B",
+   "file": "W3-02-03B-2.docx",
+   "rev": "115.11",
+   "name": "移動式起重機(EN 13000)使用檢查結果及會談紀錄",
+   "source": "W3-02-03B移動式起重機(EN13000)使用檢查結果及會談紀錄.docx",
+   "ecCodes": [
+    "M"
+   ],
+   "ecNames": [
+    "移動式起重機"
+   ],
+   "ckCodes": [
+    "0"
+   ],
+   "ckNames": [
+    "使用檢查"
+   ],
+   "ecType": "B",
+   "placeholders": [
+    "BSNAME",
+    "CKADDR",
+    "FIRSTCK",
+    "LIFTLOAD",
+    "ORG",
+    "RECK",
+    "STAMPNO",
+    "TYPE"
+   ],
+   "size": 36773,
+   "sha256": "e98f4750193e8ce430bf350614b24098fc68c1154f912764fd1a1b6e049c121d",
+   "alias": [],
+   "slots": [
+    {
+     "id": "ORG",
+     "field": "單位全銜",
+     "round": null,
+     "ctx": "{{單位全銜}}移動式起重機(EN 13000)使用檢查結果及會談紀錄"
+    },
+    {
+     "id": "FIRSTCK",
+     "field": "初檢框",
+     "round": null,
+     "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+    },
+    {
+     "id": "RECK",
+     "field": "複檢框",
+     "round": null,
+     "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+    },
+    {
+     "id": "BSNAME",
+     "field": "事業單位名稱",
+     "round": null,
+     "ctx": "{{事業單位名稱}}"
+    },
+    {
+     "id": "STAMPNO",
+     "field": "打印號碼",
+     "round": null,
+     "ctx": "{{打印號碼}}"
+    },
+    {
+     "id": "TYPE",
+     "field": "型式",
+     "round": null,
+     "ctx": "{{型式}}"
+    },
+    {
+     "id": "LIFTLOAD",
+     "field": "吊升荷重",
+     "round": null,
+     "ctx": "{{吊升荷重}}公噸"
+    },
+    {
+     "id": "CKADDR",
+     "field": "檢查地址",
+     "round": null,
+     "ctx": "{{檢查地址}}"
+    }
+   ],
+   "irCodes": []
+  },
+  {
    "code": "W3-02-06C",
    "file": "W3-02-06C.docx",
    "rev": "102.04",
@@ -2239,6 +2323,164 @@
    "irCodes": []
   },
   {
+   "code": "W3-61-20B",
+   "file": "W3-61-20B.docx",
+   "rev": "115.11",
+   "name": "移動式起重機 (EN 13000) {{既有框}}既有 {{重新框}}重新 {{變更框}}變更 檢查結果及會談紀錄",
+   "source": "W3-61-20B-移動式起重機(EN13000)既有、變更、重新檢查結果及會談紀錄.docx",
+   "ecCodes": [
+    "M"
+   ],
+   "ecNames": [
+    "移動式起重機"
+   ],
+   "ckCodes": [
+    "L",
+    "M",
+    "R"
+   ],
+   "ckNames": [
+    "既有設備檢查",
+    "變更檢查",
+    "重新檢查"
+   ],
+   "ecType": "B",
+   "placeholders": [
+    "BSNAME",
+    "CKADDR",
+    "CKBOXL",
+    "CKBOXM",
+    "CKBOXR",
+    "CKD",
+    "CKM",
+    "CKY",
+    "FIRSTCK",
+    "INH",
+    "INM",
+    "LIFTLOAD",
+    "ORG",
+    "OUTH",
+    "OUTM",
+    "RECK",
+    "STAMPNO",
+    "TYPE"
+   ],
+   "size": 32428,
+   "sha256": "708bd1494b811b54b55d990ebef449935c1e7bb8572227f394441c3614c2094c",
+   "alias": [],
+   "slots": [
+    {
+     "id": "ORG",
+     "field": "單位全銜",
+     "round": null,
+     "ctx": "{{單位全銜}} 移動式起重機 (EN 13000)"
+    },
+    {
+     "id": "CKBOXL",
+     "field": "既有框",
+     "round": null,
+     "ctx": "{{既有框}}既有"
+    },
+    {
+     "id": "CKBOXR",
+     "field": "重新框",
+     "round": null,
+     "ctx": "{{重新框}}重新 {{變更框}}變更"
+    },
+    {
+     "id": "CKBOXM",
+     "field": "變更框",
+     "round": null,
+     "ctx": "{{重新框}}重新 {{變更框}}變更"
+    },
+    {
+     "id": "FIRSTCK",
+     "field": "初檢框",
+     "round": null,
+     "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+    },
+    {
+     "id": "RECK",
+     "field": "複檢框",
+     "round": null,
+     "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+    },
+    {
+     "id": "BSNAME",
+     "field": "事業單位名稱",
+     "round": null,
+     "ctx": "{{事業單位名稱}}"
+    },
+    {
+     "id": "STAMPNO",
+     "field": "打印號碼",
+     "round": null,
+     "ctx": "{{打印號碼}}"
+    },
+    {
+     "id": "TYPE",
+     "field": "型式",
+     "round": null,
+     "ctx": "{{型式}}"
+    },
+    {
+     "id": "LIFTLOAD",
+     "field": "吊升荷重",
+     "round": null,
+     "ctx": "{{吊升荷重}}公噸"
+    },
+    {
+     "id": "CKADDR",
+     "field": "檢查地址",
+     "round": null,
+     "ctx": "{{檢查地址}}"
+    },
+    {
+     "id": "CKY",
+     "field": "檢查年",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "CKM",
+     "field": "檢查月",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "CKD",
+     "field": "檢查日",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "INH",
+     "field": "到場時",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "INM",
+     "field": "到場分",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "OUTH",
+     "field": "離場時",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "OUTM",
+     "field": "離場分",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    }
+   ],
+   "irCodes": []
+  },
+  {
    "code": "W3-61-21A",
    "file": "W3-61-21A.docx",
    "rev": "113.02",
@@ -2283,6 +2525,139 @@
      "field": "單位全銜",
      "round": null,
      "ctx": "{{單位全銜}}移動式起重機(EN 13000)定期檢查結果及會談紀錄"
+    },
+    {
+     "id": "FIRSTCK",
+     "field": "初檢框",
+     "round": null,
+     "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+    },
+    {
+     "id": "RECK",
+     "field": "複檢框",
+     "round": null,
+     "ctx": "{{初檢框}}初檢 {{複檢框}}複檢"
+    },
+    {
+     "id": "BSNAME",
+     "field": "事業單位名稱",
+     "round": null,
+     "ctx": "{{事業單位名稱}}"
+    },
+    {
+     "id": "MHNO",
+     "field": "機械編號",
+     "round": null,
+     "ctx": "{{機械編號}}"
+    },
+    {
+     "id": "TYPE",
+     "field": "型式",
+     "round": null,
+     "ctx": "{{型式}}"
+    },
+    {
+     "id": "LIFTLOAD",
+     "field": "吊升荷重",
+     "round": null,
+     "ctx": "{{吊升荷重}}公噸"
+    },
+    {
+     "id": "CKADDR",
+     "field": "檢查地址",
+     "round": null,
+     "ctx": "{{檢查地址}}"
+    },
+    {
+     "id": "CKY",
+     "field": "檢查年",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "CKM",
+     "field": "檢查月",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "CKD",
+     "field": "檢查日",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "INH",
+     "field": "到場時",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "INM",
+     "field": "到場分",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "OUTH",
+     "field": "離場時",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    },
+    {
+     "id": "OUTM",
+     "field": "離場分",
+     "round": null,
+     "ctx": "6.本會派員於 {{檢查年}}年 {{檢查月}}月 {{檢查日}}日 {{到場時}}時 {{到場分}}分至貴單位實施檢查"
+    }
+   ],
+   "irCodes": []
+  },
+  {
+   "code": "W3-61-21B",
+   "file": "W3-61-21B.docx",
+   "rev": "115.11",
+   "name": "移動式起重機(EN 13000)定期檢查結果及會談紀錄",
+   "source": "W3-61-21B-移動式起重機(EN13000)定期檢查結果及會談紀錄.docx",
+   "ecCodes": [
+    "M"
+   ],
+   "ecNames": [
+    "移動式起重機"
+   ],
+   "ckCodes": [
+    "F"
+   ],
+   "ckNames": [
+    "定期檢查"
+   ],
+   "ecType": "B",
+   "placeholders": [
+    "BSNAME",
+    "CKADDR",
+    "CKD",
+    "CKM",
+    "CKY",
+    "FIRSTCK",
+    "INH",
+    "INM",
+    "LIFTLOAD",
+    "MHNO",
+    "ORG",
+    "OUTH",
+    "OUTM",
+    "RECK",
+    "TYPE"
+   ],
+   "size": 33863,
+   "sha256": "a48f3542119fa41b826000c353562490632eac506b9a583a8567ee1e1fb9979e",
+   "alias": [],
+   "slots": [
+    {
+     "id": "ORG",
+     "field": "單位全銜",
+     "round": null,
+     "ctx": "{{單位全銜}} 移動式起重機(EN 13000)定期檢查結果及會談紀錄"
     },
     {
      "id": "FIRSTCK",
@@ -3422,11 +3797,11 @@
    ]
   },
   {
-   "code": "W3-62-03D",
-   "file": "W3-62-03D.docx",
-   "rev": "109.12",
+   "code": "W3-62-03E",
+   "file": "W3-62-03E.docx",
+   "rev": "115.11",
    "name": "鍋爐 {{竣工框}}竣工 {{重新框}}重新 檢查結果及會談紀錄",
-   "source": "W3-62-03D鍋爐竣工重新檢查結果及會談紀錄110.05.docx",
+   "source": "W3-62-03E-鍋爐竣工重新檢查結果及會談紀錄.docx",
    "ecCodes": [
     "B"
    ],
@@ -3460,8 +3835,8 @@
     "RECKNO",
     "STRUCKNO"
    ],
-   "size": 25137,
-   "sha256": "1626e0cfa473365cbaedb416fc122df3d6f4c9f6459d079c7749afff4105b1f8",
+   "size": 28146,
+   "sha256": "76e506d0ff3620f2cbac99eac3c123082d264c390feef668e005529b44fe3a4d",
    "alias": [],
    "slots": [
     {
@@ -4926,15 +5301,15 @@
     "TYPENAME",
     "WELDCKNO"
    ],
-   "size": 28424,
-   "sha256": "7f09b2386c6f62a1280150bfe27b4c1653a17506e9998e8fd3ccfd044b53497e",
+   "size": 28429,
+   "sha256": "9c156aca6f9773e2fc7b55bd6e3eaaf83c6e588275558ad4ba22149e62209b24",
    "alias": [],
    "slots": [
     {
      "id": "ORG",
      "field": "單位全銜",
      "round": null,
-     "ctx": "{{單位全銜}} 高壓氣體容器"
+     "ctx": "{{單位全銜}}高壓氣體容器"
     },
     {
      "id": "CKBOXU",
@@ -7313,7 +7688,7 @@
   "map": {
    "A001": "W3-62-01C.docx",
    "A002": "W3-62-02D.docx",
-   "A003": "W3-62-03D.docx",
+   "A003": "W3-62-03E.docx",
    "A004": "W3-62-04E.docx",
    "A005": "W3-62-05B.docx",
    "A006": "W3-62-06B.docx",
